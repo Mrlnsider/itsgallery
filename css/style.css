@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:after, *:berore {
+	box-sizing: border-box;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+body { 
+	background-image: url(https://www.mechatronicsart.com/wp-content/uploads/2016/06/Vilarpac_website_background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	font-weight: 500;
+}
+* { font-family: monospace, Arial; }
+.menu {
+      /position: fixed;
+      left:0;
+      right:0;
+			background: #272625;
+			width: 60%;
+			margin: auto;
+			border-radius: 15px;
+		}
+.menu ul {
+      display: -webkit-flex;
+	    display: -moz-flex;
+	    display: -ms-flex;
+	    display: -o-flex;
+	    display: flex;
+	    justify-content: center;
+	    flex-wrap: wrap;  
+			
+		}
+.menu li {
+			display: inline-block;
+			padding: 5px 15px;
+			margin: 0px 10px;
+			border-radius: 15px;
+			transition: 2s;
+		}
+.menu a {
+			text-decoration: none;
+			color: #D5C9AF;
+		}
+.menu li:hover {
+			background: #D5C9AF;
+			cursor: pointer;
+		}
+.menu li:hover a {
+			color: #272625;
+		}
+.picture {
+	text-align: center;
+}
+img {
+	width: 40%;	
+	height: auto;
+	margin: auto;
+}
+p {
+	margin-bottom: 40px;
+}
+h1 {
+	text-align: center;
+	margin-bottom : 40px;
+}
+
